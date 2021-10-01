@@ -25,9 +25,57 @@
 #fimdejogo {
     display: none;
     position: absolute;
+    bottom: 0%;
     width: 100%;
     height: 100%;
     background-color: red;
+}
+
+#playagain {
+    width: 100px;  
+    height: 70px;  
+    position: relative;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    top: 10px;
+    left: 10px;
+    font-family: serif;
+    font-size: 24px;
+}
+
+#win {
+    display: none;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+#winbutton {
+    display: none;
+    width: 100px;  
+    height: 70px;  
+    position: relative;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    top: 10px;
+    left: 10px;
+    font-family: serif;
+    font-size: 24px;
+}
+
+#paredevencedora {
+    display: none;
+    margin: 0;
+    position: relative;
+    left: 205px;
+    top: 6px;
+    width: 45px;
+    height: 14px;
+    background-color: green;
 }
 
 #teladojogo {
@@ -46,8 +94,10 @@
     background-color: rgb(161, 161, 161);
 }
 
-#paredes{
+#paredes {
     display: none;
+    top: 30px;
+    left: 200px;
 }
 
 .paredes-y {
@@ -59,10 +109,196 @@
 }
 
 #parede1 {
-    top: 30px;
-    left: 200px;
+    top: 0px;
+    left: 1000px;
 }
 
 #parede2 {
-    left: 1000px;
+    height: 550px;
+    top: 40px;
+    right: 950px;
+}
+
+#parede3 {
+    height: 460px;
+    bottom: 525px;
+    right: 120px;
+}
+
+#parede4 {
+    height: 550px;
+    bottom: 1025px;
+    right: 70px;
+}
+
+#parede5 {
+    height: 480px;
+    bottom: 1510px;
+    right: 900px;
+}
+
+#parede6 {
+    height: 395px;
+    bottom: 2000px;
+    right: 160px;
+}
+
+#parede7 {
+    height: 395px;
+    bottom: 2365px;
+    right: 870px;
+} 
+
+#parede8 {
+    height: 325px;
+    bottom: 2725px;
+    right: 840px;
+}
+
+#parede9 {
+    height: 325px;
+    bottom: 3100px;
+    right: 200px;
+}
+
+#parede10 {
+    height: 250px;
+    bottom: 3380px;
+    right: 250px;
+} 
+
+#parede11 {
+    height: 250px;
+    bottom: 3610px;
+    right: 800px;
+}
+
+#parede12 {
+    height: 190px;
+    bottom: 3830px;
+    right: 770px;
+}
+
+#parede13 {
+    height: 180px;
+    bottom: 4060px;
+    right: 290px;
+}
+
+#parede14 {
+    height: 120px;
+    bottom: 4210px;
+    right: 330px;
+}
+
+#parede15 {
+    height: 125px;
+    bottom: 4310px;
+    right: 735px;
+}
+
+
+
+.paredes-x {
+    margin: 0;
+    position: relative;
+    width: 600px;
+    height: 5px;
+    background-color: white;
+}
+
+#paredex1 {
+    width: 1000px;
+    top: 40px;
+    right: 1000px;
+}
+
+#paredex2 {
+    width: 830px;
+    bottom: 520px;
+    right: 950px;
+}
+
+#paredex3 {
+    width: 930px;
+    bottom: 1020px;
+    right: 1000px;
+}
+
+#paredex4 {
+    width: 835px;
+    bottom: 1025px;
+    right: 900px;
+}
+
+#paredex5 {
+    width: 740px;
+    bottom: 1995px;
+    right: 900px;
+}
+
+#paredex6 {
+    width: 680px;
+    bottom: 2000px;
+    right: 835px;
+}
+
+#paredex7 {
+    width: 750px;
+    bottom: 1970px;
+    right: 865px;
+}
+
+#paredex8 {
+    width: 670px;
+    bottom: 3090px;
+    right: 870px;
+}
+
+#paredex9 {
+    width: 590px;
+    bottom: 3055px;
+    right: 835px;
+}
+
+#paredex10 {
+    width: 600px;
+    bottom: 3355px;
+    right: 800px;
+}
+
+#paredex11 {
+    width: 520px;
+    bottom: 3390px;
+    right: 770px;
+}
+
+#paredex12 {
+    width: 510px;
+    bottom: 4050px;
+    right: 800px;
+}
+
+#paredex13 {
+    width: 440px;
+    bottom: 4025px;
+    right: 770px;
+}
+
+#paredex14 {
+    width: 449px;
+    bottom: 4180px;
+    right: 734px;
+}
+
+#paredex15 {
+    width: 380px;
+    bottom: 4220px;
+    right: 705px;
+} 
+
+#paredex16 {
+    width: 370px;
+    bottom: 4440px;
+    right: 735px;
 }
